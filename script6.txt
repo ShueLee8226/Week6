@@ -1,0 +1,31 @@
+#!/bin/bash
+
+clear
+echo "Welcome to week6 script"
+echo "This script will be about the user space"
+echo "First let check our system runlevel"
+who -r
+echo "Let check your init"
+cd /usr/lib/systemd
+pwd
+ls
+echo "Now let check what is systemd init and what in it"
+systemctl show
+sleep 4
+
+clear
+echo "To check the systemd configuration search path"
+echo "you used the -p UnitPath show"
+systemctl -p Unitpath show
+echo "To view the list of active unit on your system"
+echo "you used the command list-unit in the command of systemctl"
+systemctl list-unit
+sleep 4
+echo "Now let check is there any thing in the jobs list"
+systemctl list-jobs
+sleep 2
+
+clear
+echo "Now let used the status command in systemctl"
+echo "example of cups.socket"
+systemctl status cups.socket
