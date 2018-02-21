@@ -7,4 +7,4 @@ The program I used will be similar to everyone else.
 The program is Universal USB installer.
 The website is"  https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/   "
 And so for, you'll need to follow 
-the step that is show in the link above.
+the step that is show in the link.
