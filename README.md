@@ -1,6 +1,6 @@
 # Week6
 To build a bootable USB you need two item.
-1. first, you'll need a USB that is 3GB or more.
+1. First, you'll need a USB that is 3GB or more.
 2. you need a program that will allow you to put an image to your USB and boot it off from it.
 The program I used will be similar to everyone else.
 The program is Universal USB installer.
